@@ -1,0 +1,50 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: cadetblue;
+}
+h1{
+    color: darkblue;
+    background-color: darkgoldenrod;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*o pseudoclasse é uma palavra*/
+h1:hover{
+    color: deeppink;
+    background-color: darkred;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*active - */
+h2:active{
+color: chartreuse;
+background-color: aqua;
+}
+#caos{
+    width: 100%;
+    height: 400px;
+    background-color: darkgreen;
+}
+.kratos{
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    background-color: silver;
+    display: inline-block;
+    margin-left: 60px;
+    text-align: center;
+    padding-top: 140px;}
+   
+.kratos:hover{
+    background-color: sienna;
+    color: darkviolet;
+    background-image: url(./imagem/Brook\ cartas\ de\ procurado.webp); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale3d(3.0, 3.0, 7.0);
+    transition: 3s;
+    rotate: 195rad;
+}
